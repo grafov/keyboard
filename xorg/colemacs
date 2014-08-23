@@ -44,15 +44,15 @@ xkb_symbols "basic" {
     key <AC06> { [            h,            H,          ntilde,           Ntilde ] };
     key <AC07> { [            d,            D,      dead_caron,       asciitilde ] };
     key <AC08> { [            o,            O,          oacute,           Oacute ] };
-    key <AC09> { [            s,            S,          ssharp,       asciitilde ] };
-    key <AC10> { [            i,            I,          iacute,           Iacute ] };
+    key <AC09> { [            i,            I,          iacute,           Iacute ] };
+    key <AC10> { [            s,            S,          ssharp,       asciitilde ] };
     key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
 
     key <AB01> { [            z,            Z,         dstroke,          Dstroke ] };
     key <AB02> { [        comma,         less,    dead_cedilla,       asciitilde ] };
-    key <AB03> { [            v,            V,              oe,               OE ] };
+    key <AB03> { [            k,            K,      dead_breve,       asciitilde ] };
     key <AB04> { [            b,            B,              ae,               AE ] };
-    key <AB05> { [            k,            K,      dead_breve,       asciitilde ] };
+    key <AB05> { [            v,            V,              oe,               OE ] };
     key <AB06> { [            m,            M,     dead_macron,       asciitilde ] };
     key <AB07> { [            j,            J,  dead_abovering,       asciitilde ] };
     key <AB08> { [            c,            C,        ccedilla,         Ccedilla ] };
