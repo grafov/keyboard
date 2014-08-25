@@ -136,7 +136,7 @@ Carpalx на дефолтном корпусе слов:
 * Asset: 36557
 * Capewell: 36410
 * Colemak: 33875
-* Colemacs: 40768
+* Colemacs: 38271
 * Dvorak: 43352
 * Klausler: 41301
 * Minimak: 36466
