@@ -44,10 +44,10 @@ function get_points($layout = 'Norman') {
 
 
     case 'Colemacs':
-      $points[1] = array('a', 'e', 'f', 'd', 'o', 'i');
+      $points[1] = array('a', 'e', 'n', 'd', 'o', 'i');
       $points[1.5] = array('r', 's');
-      $points[2] = array('w', 't', 'l', 'y', 'b', 'm');
-      $points[3] = array('p', 'u', 'n', 'h', 'k', 'j', 'x');
+      $points[2] = array('w', 't', 'l', 'f', 'y', 'm');
+      $points[3] = array('p', 'u', 'h', 'b', 'k', 'j', 'x');
       $points[4] = array('q', 'g', ';', 'z', ',', 'x', '/');
       $points[5] = array('.', 'v');
       break;
