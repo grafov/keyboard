@@ -1,6 +1,7 @@
 // Colemacs symbols for xkb on X.Org Server. 2014, A.I.Grafov (Axel). Public domain.
 // based on Colemak symbols for xkb on X.Org Server 7.x
 // 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain.
+// TODO remap caps->ctl enter->ctl ctl->bspc bspc->enter
 
 partial default alphanumeric_keys
 xkb_symbols "basic" {
@@ -19,8 +20,8 @@ xkb_symbols "basic" {
     key <AE08> { [     asterisk,            8,           thorn,            THORN ] };
     key <AE09> { [    parenleft,            9,  leftsinglequotemark,  leftdoublequotemark ] };
     key <AE10> { [   parenright,            0, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE11> { [   underscore,        minus,          endash,           emdash ] };
-    key <AE12> { [         plus,        equal,        multiply,         division ] };
+    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
+    key <AE12> { [        equal,         plus,        multiply,         division ] };
 
     key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
     key <AD02> { [            w,            W,           aring,            Aring ] };
@@ -31,9 +32,9 @@ xkb_symbols "basic" {
     key <AD07> { [            u,            U,          uacute,           Uacute ] };
     key <AD08> { [            l,            L,         lstroke,          Lstroke ] };
     key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AD11> { [  bracketleft,    braceleft,   guillemotleft,        0x1002039 ] };
-    key <AD12> { [ bracketright,   braceright,  guillemotright,        0x100203a ] };
+    key <AD10> { [        colon,    semicolon,      odiaeresis,       Odiaeresis ] };
+    key <AD11> { [    braceleft,  bracketleft,   guillemotleft,        0x1002039 ] };
+    key <AD12> { [   braceright, bracketright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
 
     key <AC01> { [            r,            R,      dead_grave,       asciitilde ] };

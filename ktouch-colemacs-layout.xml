@@ -22,8 +22,8 @@
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="480" height="80" hasHapticMarker="true" fingerIndex="3" top="200">
-   <char position="topLeft" modifier="right_shift">F</char>
-   <char position="hidden">f</char>
+   <char position="topLeft" modifier="right_shift">N</char>
+   <char position="hidden">n</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="780" height="80" hasHapticMarker="true" fingerIndex="4" top="200">
@@ -52,62 +52,62 @@
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="100" height="80" fingerIndex="0" top="0">
-   <char position="topLeft" modifier="right_shift">!</char>
-   <char position="bottomLeft">1</char>
+   <char position="topLeft" modifier="right_shift">1</char>
+   <char position="bottomLeft">!</char>
   </key>
   <key width="80" left="200" height="80" fingerIndex="1" top="0">
-   <char position="topLeft" modifier="right_shift">@</char>
-   <char position="bottomLeft">2</char>
+   <char position="topLeft" modifier="right_shift">2</char>
+   <char position="bottomLeft">@</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="300" height="80" fingerIndex="1" top="0">
-   <char position="topLeft" modifier="right_shift">#</char>
-   <char position="bottomLeft">3</char>
+   <char position="topLeft" modifier="right_shift">3</char>
+   <char position="bottomLeft">#</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="400" height="80" fingerIndex="2" top="0">
-   <char position="topLeft" modifier="right_shift">$</char>
-   <char position="bottomLeft">4</char>
+   <char position="topLeft" modifier="right_shift">4</char>
+   <char position="bottomLeft">$</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="500" height="80" fingerIndex="3" top="0">
-   <char position="topLeft" modifier="right_shift">%</char>
-   <char position="bottomLeft">5</char>
+   <char position="topLeft" modifier="right_shift">5</char>
+   <char position="bottomLeft">%</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="600" height="80" fingerIndex="3" top="0">
-   <char position="topLeft" modifier="left_shift">^</char>
-   <char position="bottomLeft">6</char>
+   <char position="topLeft" modifier="left_shift">6</char>
+   <char position="bottomLeft">^</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="700" height="80" fingerIndex="4" top="0">
-   <char position="topLeft" modifier="left_shift">&amp;</char>
-   <char position="bottomLeft">7</char>
+   <char position="topLeft" modifier="left_shift">7</char>
+   <char position="bottomLeft">&amp;</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="800" height="80" fingerIndex="5" top="0">
-   <char position="topLeft" modifier="left_shift">*</char>
-   <char position="bottomLeft">8</char>
+   <char position="topLeft" modifier="left_shift">8</char>
+   <char position="bottomLeft">*</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="900" height="80" fingerIndex="6" top="0">
-   <char position="topLeft" modifier="left_shift">(</char>
-   <char position="bottomLeft">9</char>
+   <char position="topLeft" modifier="left_shift">9</char>
+   <char position="bottomLeft">(</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
-  <key width="80" left="1000" height="80" fingerIndex="7" top="0">
-   <char position="topLeft" modifier="left_shift">)</char>
-   <char position="bottomLeft">0</char>
+  <key width="80" left="1000" height="80" fingerIndex="6" top="0">
+   <char position="topLeft" modifier="left_shift">0</char>
+   <char position="bottomLeft">)</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="1100" height="80" fingerIndex="7" top="0">
-   <char position="topLeft" modifier="left_shift">_</char>
-   <char position="bottomLeft">-</char>
+   <char position="topLeft" modifier="left_shift">-</char>
+   <char position="bottomLeft">_</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="1200" height="80" fingerIndex="7" top="0">
-   <char position="topLeft" modifier="left_shift">+</char>
-   <char position="bottomLeft">=</char>
+   <char position="topLeft" modifier="left_shift">=</char>
+   <char position="bottomLeft">+</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="150" height="80" fingerIndex="0" top="100">
@@ -161,18 +161,18 @@
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="1150" height="80" fingerIndex="7" top="100">
-   <char position="topLeft" modifier="left_shift">{</char>
-   <char position="bottomLeft">[</char>
+   <char position="topLeft" modifier="left_shift">[</char>
+   <char position="bottomLeft">{</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="1250" height="80" fingerIndex="7" top="100">
-   <char position="topLeft" modifier="left_shift">}</char>
-   <char position="bottomLeft">]</char>
+   <char position="topLeft" modifier="left_shift">]</char>
+   <char position="bottomLeft">}</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="580" height="80" fingerIndex="3" top="200">
-   <char position="topLeft" modifier="right_shift">N</char>
-   <char position="hidden">n</char>
+   <char position="topLeft" modifier="right_shift">K</char>
+   <char position="hidden">k</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="680" height="80" fingerIndex="4" top="200">
@@ -186,8 +186,8 @@
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="1350" height="80" fingerIndex="7" top="100">
-   <char position="topLeft" modifier="left_shift">|</char>
-   <char position="bottomLeft">\</char>
+   <char position="topLeft" modifier="left_shift">\</char>
+   <char position="bottomLeft">|</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="650" height="80" fingerIndex="4" top="100">
@@ -201,13 +201,13 @@
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="430" height="80" fingerIndex="2" top="300">
-   <char position="topLeft" modifier="right_shift">K</char>
-   <char position="hidden">k</char>
+   <char position="topLeft" modifier="right_shift">B</char>
+   <char position="hidden">b</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="530" height="80" fingerIndex="3" top="300">
-   <char position="topLeft" modifier="right_shift">B</char>
-   <char position="hidden">b</char>
+   <char position="topLeft" modifier="right_shift">F</char>
+   <char position="hidden">f</char>
    <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
   </key>
   <key width="80" left="630" height="80" fingerIndex="3" top="300">
@@ -250,6 +250,6 @@
   <specialKey width="830" left="300" height="80" type="space" top="400"/>
   <specialKey width="210" modifierId="left_shift" left="0" height="80" type="shift" top="300"/>
   <specialKey width="160" left="0" height="80" type="backspace" top="200"/>
-  <specialKey width="130" left="1300" height="80" type="capslock" top="0"/>
+  <specialKey width="130" left="1300" height="80" type="backspace" top="0"/>
  </keys>
 </keyboardLayout>
