@@ -32,7 +32,7 @@ xkb_symbols "basic" {
     key <AD07> { [            u,            U,          uacute,           Uacute ] };
     key <AD08> { [            l,            L,         lstroke,          Lstroke ] };
     key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD10> { [        colon,    semicolon,      odiaeresis,       Odiaeresis ] };
+    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
     key <AD11> { [    braceleft,  bracketleft,   guillemotleft,        0x1002039 ] };
     key <AD12> { [   braceright, bracketright,  guillemotright,        0x100203a ] };
     key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
@@ -64,6 +64,8 @@ xkb_symbols "basic" {
     key <BSPC> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,        Caps_Lock ] };
     key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
     key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+    key <RALT> { [         Alt_L, Alt_L, Alt_L, Alt_L ] };
+    key <PRSC> { [    Super_L ] };
 
-    include "level3(ralt_switch)"
+    // include "level3(ralt_switch)"
 };
