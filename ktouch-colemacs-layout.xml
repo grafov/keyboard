@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <keyboardLayout>
- <id>{1f4f1bf3-8d71-41c6-85e8-45efa3c98414}</id>
+ <id>{4897cfae-53e7-4708-870d-b8ccb4a53531}</id>
  <title>English Colemacs (Latin)</title>
  <name>colemacs</name>
  <width>1430</width>
@@ -54,16 +54,17 @@
   <key width="80" left="100" height="80" fingerIndex="0" top="0">
    <char position="topLeft" modifier="right_shift">1</char>
    <char position="bottomLeft">!</char>
+   <char position="bottomRight" modifier="altgr">¹</char>
   </key>
   <key width="80" left="200" height="80" fingerIndex="1" top="0">
    <char position="topLeft" modifier="right_shift">2</char>
    <char position="bottomLeft">@</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">²</char>
   </key>
   <key width="80" left="300" height="80" fingerIndex="1" top="0">
    <char position="topLeft" modifier="right_shift">3</char>
    <char position="bottomLeft">#</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">³</char>
   </key>
   <key width="80" left="400" height="80" fingerIndex="2" top="0">
    <char position="topLeft" modifier="right_shift">4</char>
@@ -158,7 +159,7 @@
   <key width="80" left="1050" height="80" fingerIndex="7" top="100">
    <char position="topLeft" modifier="left_shift">:</char>
    <char position="bottomLeft">;</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">…</char>
   </key>
   <key width="80" left="1150" height="80" fingerIndex="7" top="100">
    <char position="topLeft" modifier="left_shift">[</char>
@@ -193,12 +194,12 @@
   <key width="80" left="650" height="80" fingerIndex="4" top="100">
    <char position="topLeft" modifier="left_shift">></char>
    <char position="bottomLeft">.</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">»</char>
   </key>
   <key width="80" left="330" height="80" fingerIndex="1" top="300">
    <char position="topLeft" modifier="right_shift">&lt;</char>
    <char position="bottomLeft">,</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">«</char>
   </key>
   <key width="80" left="430" height="80" fingerIndex="2" top="300">
    <char position="topLeft" modifier="right_shift">B</char>
@@ -238,16 +239,16 @@
   <key width="80" left="1130" height="80" fingerIndex="7" top="300">
    <char position="topLeft" modifier="left_shift">?</char>
    <char position="bottomLeft">/</char>
-   <char position="bottomRight" modifier="altgr"><![CDATA[ ]]></char>
+   <char position="bottomRight" modifier="altgr">…</char>
   </key>
   <specialKey width="130" left="0" height="80" type="tab" top="100"/>
   <specialKey width="150" left="1280" height="80" type="return" top="200"/>
   <specialKey width="200" modifierId="right_shift" left="1230" height="80" type="shift" top="300"/>
-  <specialKey width="130" modifierId="altgr" left="1150" height="80" type="other" label="Alt Gr" top="400"/>
-  <specialKey width="130" left="1300" height="80" type="other" label="Ctrl" top="400"/>
+  <specialKey width="130" modifierId="alt" left="1150" height="80" type="other" label="Alt" top="400"/>
+  <specialKey width="130" left="1300" height="80" type="other" label="Window" top="400"/>
   <specialKey width="130" left="150" height="80" type="other" label="Alt" top="400"/>
-  <specialKey width="130" left="0" height="80" type="other" label="Ctrl" top="400"/>
-  <specialKey width="830" left="300" height="80" type="space" top="400"/>
+  <specialKey width="130" left="0" height="80" type="other" label="Window" top="400"/>
+  <specialKey width="830" left="300" height="80" type="other" label="Ctrl/Space" top="400"/>
   <specialKey width="210" modifierId="left_shift" left="0" height="80" type="shift" top="300"/>
   <specialKey width="160" left="0" height="80" type="backspace" top="200"/>
   <specialKey width="130" left="1300" height="80" type="backspace" top="0"/>
