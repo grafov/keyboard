@@ -1,71 +1,75 @@
-// Colemacs symbols for xkb on X.Org Server. 2014, A.I.Grafov (Axel). Public domain.
-// based on Colemak symbols for xkb on X.Org Server 7.x
-// 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain.
-// TODO remap caps->ctl enter->ctl ctl->bspc bspc->enter
+xkb_symbols "colemacs" {
 
-partial default alphanumeric_keys
-xkb_symbols "basic" {
-    include "us(norman)"
-    name[Group1]= "Colemacs";
+  include "pc+us+ru(ruu):2+inet(evdev)" // +capslock(grouplock)"
+
+  // Colemacs symbols for xkb on X.Org Server. 2014-2015, A.I.Grafov (Axel). Public domain.
+  // based on Colemak symbols for xkb on X.Org Server 7.x
+  // 2006-01-01 Shai Coleman, http://colemak.com/ . Public domain.
 
     // Alphanumeric section
-    key <TLDE> { [        grave,   asciitilde,      dead_tilde,       asciitilde ] };
-    key <AE01> { [       exclam,            1,      exclamdown,      onesuperior ] };
-    key <AE02> { [           at,            2,       masculine,      twosuperior ] };
-    key <AE03> { [   numbersign,            3,     ordfeminine,    threesuperior ] };
-    key <AE04> { [       dollar,            4,            cent,         sterling ] };
-    key <AE05> { [      percent,            5,        EuroSign,              yen ] };
-    key <AE06> { [  asciicircum,            6,         hstroke,          Hstroke ] };
-    key <AE07> { [    ampersand,            7,             eth,              ETH ] };
-    key <AE08> { [     asterisk,            8,           thorn,            THORN ] };
-    key <AE09> { [    parenleft,            9,  leftsinglequotemark,  leftdoublequotemark ] };
-    key <AE10> { [   parenright,            0, rightsinglequotemark,  rightdoublequotemark ] };
-    key <AE11> { [        minus,   underscore,          endash,           emdash ] };
-    key <AE12> { [        equal,         plus,        multiply,         division ] };
+    key <TLDE> { [     asciitilde,    grave,         dead_tilde,      asciitilde ] };
+    key <AE01> { [          1,       exclam,        exclamdown,      onesuperior ] };
+    key <AE02> { [          2,           at,         masculine,      twosuperior ] };
+    key <AE03> { [          3,   numbersign,       ordfeminine,    threesuperior ] };
+    key <AE04> { [          4,       dollar,              cent,    0xe282bd ] };
+    key <AE05> { [          5,      percent,          EuroSign,             yen ] };
+    key <AE06> { [          6,  asciicircum,           hstroke,          Hstroke ] };
+    key <AE07> { [          7,    ampersand,               eth,              ETH ] };
+    key <AE08> { [          8,     asterisk,             thorn,            THORN ] };
+    key <AE09> { [          9,    parenleft,    leftsinglequotemark,  leftdoublequotemark ] };
+    key <AE10> { [          0,   parenright,   rightsinglequotemark,  rightdoublequotemark ] };
+    key <AE11> { [      minus,   underscore,           endash,           emdash ] };
+    key <AE12> { [      equal,         plus,       multiply,         division ] };
 
-    key <AD01> { [            q,            Q,      adiaeresis,       Adiaeresis ] };
-    key <AD02> { [            w,            W,           aring,            Aring ] };
-    key <AD03> { [            t,            T,          atilde,           Atilde ] };
-    key <AD04> { [            p,            P,          oslash,         Ooblique ] };
-    key <AD05> { [            g,            G,     dead_ogonek,       asciitilde ] };
-    key <AD06> { [       period,      greater,   Dead_abovedot,       Asciitilde ] };
-    key <AD07> { [            u,            U,          uacute,           Uacute ] };
-    key <AD08> { [            l,            L,         lstroke,          Lstroke ] };
-    key <AD09> { [            y,            Y,      udiaeresis,       Udiaeresis ] };
-    key <AD10> { [    semicolon,        colon,      odiaeresis,       Odiaeresis ] };
-    key <AD11> { [    braceleft,  bracketleft,   guillemotleft,        0x1002039 ] };
-    key <AD12> { [   braceright, bracketright,  guillemotright,        0x100203a ] };
-    key <BKSL> { [    backslash,          bar,      asciitilde,       asciitilde ] };
+    key <AD01> { [            q,            Q ] };
+    key <AD02> { [            w,            W ] };
+    key <AD03> { [            t,            T ] };
+    key <AD04> { [            p,            P,          Up,         Up ] };
+    key <AD05> { [            g,            G, Prior, Prior ] };
+    key <AD06> { [       period,      greater ] };
+    key <AD07> { [            u,            U,          Up ] };
+    key <AD08> { [            l,            L ] };
+    key <AD09> { [            y,            Y, Escape, Escape ] };
+    key <AD10> { [    colon,        semicolon, Escape, Escape ] };
+    key <AD11> { [    braceleft,  bracketleft ] };
+    key <AD12> { [   braceright, bracketright ] };
+    key <BKSL> { [    backslash,          bar ] };
+    key <AC01> { [            r,            R ] };
+    key <AC02> { [            a,            A,          Home,           Aacute ] };
+    key <AC03> { [            e,            E,          End,           Eacute ] };
+    key <AC04> { [            n,            N,  Down,       Down ]};
+    key <AC05> { [            k,            K,      Next, Next ] };
+    key <AC06> { [            h,            H,          BackSpace ] };
+    key <AC07> { [            o,            O,      Left, Left ] };
+    key <AC08> { [            d,            D,          Right, Right ] };
+    key <AC09> { [            i,            I, Delete ] };
+    key <AC10> { [            s,            S ] };
+    key <AC11> { [   apostrophe,     quotedbl ] };
 
-    key <AC01> { [            r,            R,      dead_grave,       asciitilde ] };
-    key <AC02> { [            a,            A,          aacute,           Aacute ] };
-    key <AC03> { [            e,            E,          eacute,           Eacute ] };
-    key <AC04> { [            n,            N,  dead_diaeresis,       asciitilde ] };
-    key <AC05> { [            k,            K,      dead_breve,       asciitilde ] };
-    key <AC06> { [            h,            H,          ntilde,           Ntilde ] };
-    key <AC07> { [            d,            D,      dead_caron,       asciitilde ] };
-    key <AC08> { [            o,            O,          oacute,           Oacute ] };
-    key <AC09> { [            i,            I,          iacute,           Iacute ] };
-    key <AC10> { [            s,            S,          ssharp,       asciitilde ] };
-    key <AC11> { [   apostrophe,     quotedbl,          otilde,           Otilde ] };
+    key <AB01> { [            z,            Z ] };
+    key <AB02> { [        comma,         less ] };
+    key <AB03> { [            b,            B,              Left,             Left ] };
+    key <AB04> { [            f,            F,      Right, Right ] };
+    key <AB05> { [            v,            V, Return, Return ] };
+    key <AB06> { [            m,            M,     Left ] };
+    key <AB07> { [            j,            J,  Return ] };
+    key <AB08> { [            c,            C ] };
+    key <AB09> { [            x,            X ] };
+    key <AB10> { [        slash,     question, Undo, Redo ] };
 
-    key <AB01> { [            z,            Z,         dstroke,          Dstroke ] };
-    key <AB02> { [        comma,         less,    dead_cedilla,       asciitilde ] };
-    key <AB03> { [            b,            B,              ae,               AE ] };
-    key <AB04> { [            f,            F,      dead_acute, dead_doubleacute ] };
-    key <AB05> { [            v,            V,              oe,               OE ] };
-    key <AB06> { [            m,            M,     dead_macron,       asciitilde ] };
-    key <AB07> { [            j,            J,  dead_abovering,       asciitilde ] };
-    key <AB08> { [            c,            C,        ccedilla,         Ccedilla ] };
-    key <AB09> { [            x,            X, dead_circumflex,       asciitilde ] };
-    key <AB10> { [        slash,     question,    questiondown,       asciitilde ] };
-
-    key <CAPS> { [    BackSpace ] };
-    key <BSPC> { [    Caps_Lock,    Caps_Lock,       Caps_Lock,        Caps_Lock ] };
-    key <LSGT> { [        minus,   underscore,          endash,           emdash ] };
-    key <SPCE> { [        space,        space,           space,     nobreakspace ] };
+    key <CAPS> { [    BackSpace, BackSpace, Delete, Delete ] };
+    key <BKSP> { [    Caps_Lock ] };
+    // key <BKSP> { [    Return ] };
+    // key <RTRN> { [ BackSpace ] };
+    key <LSGT> { [        minus,   underscore ] };
+//    key <SPCE> { [        space,        space,     space,     nobreakspace ] };
+    key <SPCE> { [ ISO_Level3_Shift ] };
     key <RALT> { [         Alt_L, Alt_L, Alt_L, Alt_L ] };
-    key <PRSC> { [    Super_L ] };
-
+    key <PRSC> { [    Super_L ] }; // for Lenovo T450, T540p
+    //key <MENU> { [    Super_L ] };
+    key <HYPR> { [  space, nobreakspace ] };
+ 
     // include "level3(ralt_switch)"
+
 };
+
