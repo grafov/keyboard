@@ -1,6 +1,8 @@
 Research for ergonomic keyboard layout
 ======================================
 
+**Moved to [Keymacs](https://github.com/keyboard-ergonomics/keymacs) project.**
+
 Text below will be translated. Now I just quickly record thoughts about the project in the language I know better than English.
 
 Предпосылки
